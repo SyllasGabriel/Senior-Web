@@ -16,7 +16,22 @@
   <script src="./js/admin-auth.js" defer></script> <!-- fazer login antes do corpo da página renderizar -->
 </head>
 
-<body> 
+<body class="admin-page">
+  <!-- Controles de acessibilidade (mantidos por consistência) -->
+  <div class="accessibility-controls" aria-label="Controles de acessibilidade" style="z-index: 1050;">
+    <button class="accessibility-btn" id="increaseFont" aria-label="Aumentar tamanho da fonte">
+      <i class="bi bi-zoom-in"></i>
+    </button>
+    <button class="accessibility-btn" id="decreaseFont" aria-label="Diminuir tamanho da fonte">
+      <i class="bi bi-zoom-out"></i>
+    </button>
+    <button class="accessibility-btn" id="highContrast" aria-label="Alternar alto contraste">
+      <i class="bi bi-brightness-high"></i>
+    </button>
+    <button class="accessibility-btn" id="resetAccessibility" aria-label="Redefinir configurações de acessibilidade">
+      <i class="bi bi-arrow-counterclockwise"></i>
+    </button>
+  </div>
 
   <header class="admin-header">
     <div class="container d-flex justify-content-between align-items-center">
