@@ -54,8 +54,8 @@ Para rodar este projeto em um ambiente de desenvolvimento local, siga os passos 
 
 1.  **Clonar o Repositório:**
     ```bash
-    git clone https://github.com/seu-usuario/seu-repositorio.git
-    cd seu-repositorio
+    git clone https://github.com/SyllasGabriel/Senior-Web.git
+    cd Senior-Web
     ```
 
 2.  **Configurar o Back-End:**
